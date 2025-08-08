@@ -15,8 +15,8 @@
 
 /* CityCard.css */
 .card {
-    width: 400px;
     margin: 0 auto;
+    min-width: 200px;
 }
 
 .btn:hover {
