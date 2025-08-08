@@ -1,0 +1,44 @@
+.card {
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba(200, 203, 44, 0.2);
+}
+
+.img-fluid:hover {
+    transform: scale(1.2);
+}
+
+
+.weather-stats {
+    background: rgba(255, 255, 255, 0.1);
+    /* glassy background */
+    backdrop-filter: blur(10px);
+    /* blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    /* Safari support */
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 8px 32px 0 rgba(200, 203, 44, 0.2);
+}
+
+.weather-stats:hover {
+    transform: scale(1.05);
+}
+
+.weather-stats-wind:hover {
+    transform: scale(1.2);
+}
+
+.weather-stats-humi:hover {
+    transform: scale(1.2);
+}
+
+.weather-stats-main:hover {
+    transform: scale(1.2);
+}
+
+/* Divider line between columns */
+.weather-stats .col:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
